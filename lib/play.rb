@@ -39,8 +39,8 @@ end
 def play(board)
   turn_number = 0
   while turn_number <= 9
-    turn(board)
     turn_number += 1
-    puts turn_number
+    puts "Round " + turn_number.to_s + "Start!"
+    turn(board)
     end
 end
