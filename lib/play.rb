@@ -37,7 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  turn_number = 0
+  turn_number = 1
   until turn_number == 10
     puts "Round " + turn_number.to_s + " Start!"
     turn(board)
