@@ -42,5 +42,5 @@ def play(board)
     turn_number += 1
     puts "Round " + turn_number.to_s + " Start!"
     turn(board)
-    end
+  end
 end
